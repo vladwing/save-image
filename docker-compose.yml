@@ -2,7 +2,7 @@ version: '2'
 
 services:
     saveimage:
-        image: wing/save-image
+        image: vladwing/save-image
         depends_on:
          - selenium
         networks:
